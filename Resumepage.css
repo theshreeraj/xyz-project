@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+    height: 35rem;
+    width: 70rem;
+}
+
+#hero-container{
+    
+    /* border: 2px solid red; */
+    height: 35rem;
+
+}
+#left-side{
+   /* border: 2px solid black; */
+}
+#right-side{
+   border: 2 px solid green;
+}
+
+.work-exp{
+    height: 9rem;
+    margin-top: 0.5rem;
+    /* border: 2px solid blueviolet; */
+    border-radius: 10px;
+    background-color:rgba(220, 220, 220, 0.267);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+  transition: transform 0.15s ease-in-out;
+}
+.work-exp:hover {
+  transform: translateY(3px) scale(0.97);
+}
+
+
+.second-div{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgba(220, 220, 220, 0.267);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    /* border: 2px solid maroon; */
+    transition: transform 0.15s ease-in-out;
+}
+.second-div:hover {
+  transform: translateY(3px) scale(0.97);
+}
+#download>h5{
+    /* border: 2px solid black; */
+    margin-top: 0.3rem;
+}
+
+.icon > img {
+    border: 1px solid black;
+    border-radius: 70px;
+    margin-left: 9rem;
+    height: 40px;
+    width: 40px;
+
+    transition: all 0.25s ease;
+}
+/* Hover effect */
+.icon > img:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.127); /* black spread */
+    transform: scale(1.05); /* optional small enlarge */
+}
+.third-div{
+    border-radius: 10px;
+    background-color:rgba(220, 220, 220, 0.267);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+     /* border: 2px solid black; */
+     transition: transform 0.15s ease-in-out;
+     
+}
+.third-div:hover {
+    
+  transform: translateY(3px) scale(0.97);
+}
+.icon-4{
+    margin-top: 1rem;
+    border-radius: 10px;
+    /* background-color:rgba(220, 220, 220, 0.267); */
+    /* border: 2px solid blue; */
+    height: 10rem;
+}
+.mv-left{
+    border-radius: 10px;
+    margin-left: 16.5rem;
+    /* border: 2px solid navy; */
+    height: 10rem;
+    width: 11rem;
+    transition: transform 0.15s ease-in-out;
+    background-color:rgba(220, 220, 220, 0.267);
+}
+.mv-left:hover{
+     transform: translateY(3px) scale(0.97);
+}
+.mv-left>img:hover{
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.09); /* black spread */
+    transform: scale(1.05); /* optional small enlarge */
+}
+/* right side csss */
+.first{
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+    /* border: 2px solid green; */
+    background-color:rgba(220, 220, 220, 0.267);
+    height: 5rem;
+    transition: transform 0.15s ease-in-out;
+    border-radius: 10px;
+}
+.first:hover {
+  transform: translateY(3px) scale(0.97);
+}
+.right-img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 1rem;
+
+}
+.text-right{
+    margin-top: 10px;
+    margin-left: 1.5rem;
+}
+.address{
+    margin-left: 9rem;
+}
+/* right second divs */
+.div-2container{
+    display: flex;
+}
+.component-library{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    background-color:rgba(220, 220, 220, 0.267);
+    transition: transform 0.15s ease-in-out;
+    /* border: 2px solid black; */
+    width: 20rem;
+    border-radius: 10px;
+    height: 11rem;
+}
+.component-library:hover {
+  transform: translateY(3px) scale(0.97);
+}
+.ModularityandAccessibility{
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+      /* border: 2px solid green; */
+      background-color:rgba(220, 220, 220, 0.267);
+    transition: transform 0.15s ease-in-out;
+    width: 20rem;
+    border-radius: 10px;
+}
+.ModularityandAccessibility:hover{
+    transform: translateY(3px) scale(0.97);
+}
+
+/* this is footer style */
+
+.main-footer{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    width: 100vw;
+    background-color:rgba(220, 220, 220, 0.267);
+    height: 10rem;
+    width: 70rem;
+    justify-self: center;
+    display: flex;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* border: 2px solid green; */
+    width: 20rem;
+    height: 5rem;
+   display: flex;
+   margin-left: 3rem;
+   margin-top: 2rem;
+       transition: transform 0.15s ease-in-out;
+
+}
+.footer-button:hover{
+     transform: translateY(3px) scale(0.97);
+}
+
+
+.right-footer{
+    margin-top: 1rem;
+}
+.right-imgs{
+    width: 20rem;
+    height: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 25rem;
+    /* border: 2px solid blue ; */
+}
+
+.right-imgs>img:hover{
+    transform: translateY(3px) scale(0.97);
+}
